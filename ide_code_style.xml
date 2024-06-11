@@ -1,0 +1,43 @@
+<code_scheme name="Project" version="173">
+    <option name="OTHER_INDENT_OPTIONS">
+        <value>
+            <option name="INDENT_SIZE" value="2"/>
+            <option name="TAB_SIZE" value="2"/>
+        </value>
+    </option>
+    <option name="ENABLE_SECOND_REFORMAT" value="true"/>
+    <option name="DO_NOT_FORMAT">
+        <list>
+            <fileSet type="globPattern" pattern="*.hbs"/>
+        </list>
+    </option>
+    <JSCodeStyleSettings version="0">
+        <option name="OBJECT_LITERAL_WRAP" value="2"/>
+    </JSCodeStyleSettings>
+    <codeStyleSettings language="HTML">
+        <indentOptions>
+            <option name="INDENT_SIZE" value="2"/>
+            <option name="CONTINUATION_INDENT_SIZE" value="2"/>
+            <option name="TAB_SIZE" value="2"/>
+        </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JavaScript">
+        <option name="ALIGN_MULTILINE_PARAMETERS" value="false"/>
+        <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true"/>
+        <option name="ARRAY_INITIALIZER_WRAP" value="2"/>
+        <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true"/>
+        <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true"/>
+        <indentOptions>
+            <option name="INDENT_SIZE" value="2"/>
+            <option name="CONTINUATION_INDENT_SIZE" value="2"/>
+            <option name="TAB_SIZE" value="2"/>
+        </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Markdown">
+        <indentOptions>
+            <option name="INDENT_SIZE" value="2"/>
+            <option name="CONTINUATION_INDENT_SIZE" value="2"/>
+            <option name="TAB_SIZE" value="2"/>
+        </indentOptions>
+    </codeStyleSettings>
+</code_scheme>

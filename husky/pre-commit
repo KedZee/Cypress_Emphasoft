@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -e
+
+#for spec in $(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g' | grep integration); do
+#  npx cypress run --quiet --browser chrome --spec "$spec"
+#done
+
+npx jake clobber
+npx jake spec:tags:update
+npx jake spec:tags:check
+npx jake linter:eslint:run
+npx ncu
+
+git add ./tags.json

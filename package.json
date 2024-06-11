@@ -1,0 +1,57 @@
+{
+  "author": {
+    "name": "Sergey blohin"
+  },
+  "contributors": [
+    {
+      "name": "Aliaksei Liauchuk"
+    }
+  ],
+  "dependencies": {
+    "@4tw/cypress-drag-drop": "2.2.5",
+    "@cypress/grep": "4.0.1",
+    "axios": "1.6.8",
+    "chai": "4.3.10",
+    "cypress": "12.14.0",
+    "cypress-multi-reporters": "1.6.4",
+    "dayjs": "1.11.11",
+    "deep-rename-keys": "0.2.1",
+    "env_clobber": "file:vendor/env_clobber-1.0.0.tgz",
+    "escape-quotes": "1.0.2",
+    "eslint-plugin-sort-keys-fix": "1.1.2",
+    "fast-glob": "3.2.12",
+    "filesniffer": "1.0.3",
+    "find-cypress-specs": "1.43.2",
+    "husky": "9.0.11",
+    "jake": "10.8.7",
+    "jira": "file:vendor/jira-1.0.0.tgz",
+    "js-beautify": "1.15.1",
+    "jsforce": "1.11.1",
+    "json-beautify": "1.1.1",
+    "lodash": "4.17.21",
+    "mochawesome": "7.1.3",
+    "mochawesome-merge": "4.3.0",
+    "mochawesome-report-generator": "6.2.0",
+    "npm-check-updates": "16.14.20",
+    "query-string": "9.0.0",
+    "randomstring": "1.3.0",
+    "soql-parser-js": "5.0.2",
+    "testrail-api": "1.3.6",
+    "uuid": "9.0.1",
+    "yargs": "17.7.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "bash husky/hooks/pre_commit.sh",
+      "post-checkout": "bash husky/hooks/post_checkout.sh"
+    }
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "license": "Unlicense",
+  "repository": {
+    "type": "git"
+  },
+  "version": "1.0.0"
+}
