@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+playground
+cypress.env.*.json
+cypress.env.json
+!cypress.env.schema.json
+cypress_results.json
+debug.js
+doc
+downloads
+node_modules
+results
+screenshots
+temporary.*
+videos
+package-lock
+/envronments/
